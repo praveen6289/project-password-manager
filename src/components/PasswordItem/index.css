@@ -2,32 +2,115 @@
   list-style-type: none;
   border: 1px solid #b5b7c4;
   border-radius: 5px;
-  padding: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-bottom: 16px;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 0px;
-  min-width: 275px;
+  width: 100%;
+  max-width: 375px;
 }
 
 @media screen and (min-width: 768px) {
   .password-item {
-    margin-left: 8px;
-    margin-right: 8px;
     margin-bottom: 32px;
+    margin-right: 25px;
+    flex-grow: 1;
   }
 }
-
-.initialClassName {
-  background-color: #0b69ff;
-  margin-right: 20px;
-  padding: 10px;
-  text-align: center;
-  border-radius: 100px;
+.password-item-details {
+  display: flex;
 }
 
+.initial-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 62px;
+  height: 62px;
+  border-radius: 32px;
+  margin-top: 18px;
+  margin-right: 15px;
+  flex-shrink: 0;
+  align-self: center;
+}
+.orange {
+  background-color: #f59e0b;
+}
+
+.green {
+  background-color: #10b981;
+}
+
+.pumpkin {
+  background-color: #f97316;
+}
+
+.light-sea-green {
+  background-color: #14b8a6;
+}
+
+.carnelian {
+  background-color: #b91c1c;
+}
+
+.grey {
+  background-color: #64748b;
+}
+
+.vivid-cerulean {
+  background-color: #0ea5e9;
+}
+
+.initial {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+}
+.website-name {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+}
+.user-name {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 800;
+}
+.user-password {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 800;
+}
+.stars {
+  width: 100%;
+}
+.delete-button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
 .delete-img {
   width: 30px;
   height: 30px;
+}
+@media screen and (min-width: 768px) {
+  .website-name {
+    font-size: 22px;
+  }
+  .user-name {
+    font-size: 18px;
+  }
+  .user-password {
+    font-size: 19px;
+  }
 }
