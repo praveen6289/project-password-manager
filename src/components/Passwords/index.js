@@ -108,7 +108,7 @@ class Passwords extends Component {
             <img
               src="https://assets.ccbp.in/frontend/react-js/password-manager-sm-img.png"
               alt="password manager"
-              className="password-manager-image"
+              className="password-manager-sm-image"
             />
             <form
               className="form-bg-container"
@@ -163,6 +163,11 @@ class Passwords extends Component {
                 </button>
               </div>
             </form>
+            <img
+              src="https://assets.ccbp.in/frontend/react-js/password-manager-lg-img.png "
+              alt="password manager"
+              className="password-manager-lg-image"
+            />
           </div>
 
           <div className="password-result-bg-container">

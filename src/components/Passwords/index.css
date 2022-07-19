@@ -47,14 +47,21 @@
     padding-right: 40px;
   }
 }
-.password-manager-image {
+.password-manager-sm-image {
   width: 250px;
   margin-bottom: 10px;
 }
+.password-manager-lg-image {
+  display: none;
+}
 @media screen and (min-width: 768px) {
-  .password-manager-image {
+  .password-manager-lg-image {
+    display: flex;
     order: 1;
     width: 400px;
+  }
+  .password-manager-sm-image {
+    display: none;
   }
 }
 .form-bg-container {
