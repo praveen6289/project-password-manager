@@ -93,7 +93,7 @@ class Passwords extends Component {
     } = this.state
 
     const userPasswordsResults = passwordsList.filter(eachUser =>
-      eachUser.name.toLowerCase().includes(searchInput.toLowerCase()),
+      eachUser.website.toLowerCase().includes(searchInput.toLowerCase()),
     )
 
     return (
